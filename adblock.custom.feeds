@@ -1,0 +1,116 @@
+{
+    "source_1": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_01.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 1"
+    },
+    "source_2": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_02.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 2"
+    },
+    "source_3": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_03.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 3"
+    },
+    "source_4": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_04.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 4"
+    },
+    "source_5": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_05.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 5"
+    },
+    "source_6": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_06.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 6"
+    },
+    "source_7": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_07.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 7"
+    },
+    "source_8": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_08.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 8"
+    },
+    "source_9": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_09.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 9"
+    },
+    "source_10": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_10.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 10"
+    },
+    "source_11": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_11.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 11"
+    },
+    "source_12": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_12.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 12"
+    },
+    "source_13": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_13.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 13"
+    },
+    "source_14": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_14.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 14"
+    },
+    "source_15": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_15.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 15"
+    },
+    "source_16": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_16.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 16"
+    },
+    "source_17": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_17.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 17"
+    },
+    "source_18": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_18.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 18"
+    },
+    "source_19": {
+        "url": "https://raw.githubusercontent.com/peichedev/blocklist/main/blockList_19.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+(([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+)$/ {print tolower($2)}",
+        "size": "S",
+        "descr": "source 19"
+    }
+}

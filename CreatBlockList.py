@@ -2,7 +2,7 @@ import requests
 import re
 import os
 
-MAX_SIZE = 45 * 1024 * 1024  # 45 MB limit per file
+MAX_SIZE = 15 * 1024 * 1024  # 45 MB limit per file
 
 def extract_domains(text):
     domains = set()
