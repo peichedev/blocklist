@@ -2,7 +2,7 @@ import requests
 import re
 import os
 
-MAX_SIZE = 95 * 1024 * 1024  # 95 MB limit
+MAX_SIZE = 45 * 1024 * 1024  # 45 MB limit per file
 
 def extract_domains(text):
     domains = set()
@@ -21,7 +21,7 @@ def write_split_files(domains):
     sorted_domains = sorted(domains)
     file_index = 1
     current_size = 0
-    output_file = f"CombinedList_{file_index:02d}.txt"
+    output_file = f"blockList_{file_index:02d}.txt"
     f = open(output_file, "w")
 
     print("\nWriting output files...")
@@ -31,11 +31,11 @@ def write_split_files(domains):
         encoded = line.encode("utf-8")
         line_size = len(encoded)
 
-        # If file would exceed 95MB → create new file
+        # If file would exceed 45MB → create new file
         if current_size + line_size > MAX_SIZE:
             f.close()
             file_index += 1
-            output_file = f"CombinedList_{file_index:02d}.txt"
+            output_file = f"blockList_{file_index:02d}.txt"
             f = open(output_file, "w")
             current_size = 0
             print(f"→ Creating {output_file}")
@@ -44,7 +44,7 @@ def write_split_files(domains):
         current_size += line_size
 
     f.close()
-    print("Done!")
+    print(f"Done! {file_index} files created.")
 
 
 def main():
